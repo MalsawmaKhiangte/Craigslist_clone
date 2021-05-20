@@ -7,3 +7,10 @@
     height: 250px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+    .a1 {
+        width: 100%;
+        flex-direction: column;
+    }
+}
